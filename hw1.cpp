@@ -3,7 +3,7 @@
 using namespace std;
 
 void eSieve(long long a, long long b){
-	//N will be used for finding primes up to sqrt(B)
+	//n will be used for finding primes up to sqrt(B)
 	//I added 1 so that sqrt(B) will be included in the array index
 	long n=floor(sqrt(b))+1;
 	
